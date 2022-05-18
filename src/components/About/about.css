@@ -1,0 +1,37 @@
+.about_container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: rgb(5, 5, 56);
+    
+
+}
+
+
+.about_items>h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 40px ;
+    margin-top: 25px;
+
+    
+}
+
+.about_items >ul{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    padding:10px;
+}
+
+.about_items > ul>li>a{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+
+}
+
+.about_items > ul>li>a:hover{
+    border-bottom: 3px solid white;
+
+}
