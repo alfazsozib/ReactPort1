@@ -4,7 +4,8 @@
     background-color: rgba(0, 0, 0, 0.854) transparent;
     width: 100%;
     align-items: center;
-    padding: 30px;
+    padding: 40px;
+
 }
 .navbar > ul{
     display: flex;
@@ -30,8 +31,15 @@
 .logo{
 
     position: absolute;
-    left: 30px;
-    color: white;
+    left: 10px;
+
+}
+
+.logo>img{
+    position: relative;
+    top: 0;
+    margin-top: 1px;
+
 }
 
 .cta{

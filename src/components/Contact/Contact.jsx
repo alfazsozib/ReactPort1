@@ -35,7 +35,7 @@ function Contact() {
       <div className="con_icn">
         <FaFacebookSquare className="icn"/>
         <FaWhatsappSquare className="icn"/>
-        <FaFacebookSquare className="icn"/>
+        <FaLinkedin className="icn"/>
 
       </div>
       </div>

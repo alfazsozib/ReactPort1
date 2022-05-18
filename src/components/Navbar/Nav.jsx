@@ -1,13 +1,13 @@
 import React from 'react'
 import './nav.css'
-import Section from '../About/section'
+import logo from '../../images/logo-1.png'
 
 function Nav() {
   return (
     <div>
         <nav className='navbar'>
 
-            <span className='logo'>Alfaz</span>
+            <span className='logo'><img src={logo} alt="" /></span>
             <ul>
                 <li><a href="" className='active'>Home</a></li>
                 <li><a href="#aboutSection">About</a></li>
