@@ -14,9 +14,9 @@ function Header() {
         <h2>Freelance Developer/ Programmer.</h2>
         </div>
         <div className="header_contact">
-            <a href="" className='icon'><FaFacebookSquare/></a>
-            <a href="" className='icon'><FaWhatsappSquare/></a>
-            <a href="" className='icon'><FaLinkedin/></a>
+            <a href="https://www.facebook.com/Alfazsozib/" target='_blank' className='icon'><FaFacebookSquare/></a>
+            <a href="https://web.whatsapp.com/" target="_blank" className='icon'><FaWhatsappSquare/></a>
+            <a href="https://www.linkedin.com/in/md-alfaz-hosain-sozib-b20260164/" target="_blank" className='icon'><FaLinkedin/></a>
         </div>
         {/* <div className="man_photo">
             <img src={manImg} alt="" />

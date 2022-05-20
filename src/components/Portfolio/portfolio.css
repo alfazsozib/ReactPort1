@@ -73,17 +73,15 @@
     }
 
     .portfolio_content{
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         display: flex;
         flex-direction: column;
-        gap: 10rem;
         display: flex;
-
         gap: 15rem;
     }
     .portImage{
-        width: 300px;
+        width: 360px;
     }
 
 }

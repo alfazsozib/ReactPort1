@@ -107,14 +107,14 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 414px) {
     #image{
-        height: 400px;
+        height: 320px;
     }
     .cta_form{
         margin: 0;
-        width: 500px;
-        height: 550px;
+        width: 400px;
+        height: 450px;
     }
 
     .con_icn{

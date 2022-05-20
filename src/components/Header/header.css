@@ -52,3 +52,20 @@
     z-index: -1;
 
 }
+
+@media screen and (max-width: 414px) {
+    .main_img{
+        width: 450px;
+        opacity: 0.6;
+    }
+
+    .content>h1{
+        font-size: 3rem;
+    }
+
+    .content>h2{
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+}
