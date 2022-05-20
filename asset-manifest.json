@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/alfazsozib/ReactPort1/static/css/main.558d6223.css",
+    "main.js": "/alfazsozib/ReactPort1/static/js/main.817a58e0.js",
+    "static/media/img-2.jpg": "/alfazsozib/ReactPort1/static/media/img-2.9c2b70dc5478cd1d6720.jpg",
+    "static/media/img-1.jpg": "/alfazsozib/ReactPort1/static/media/img-1.fcb25cee8c67019b1bde.jpg",
+    "static/media/about.c07f3d2b.png": "/alfazsozib/ReactPort1/static/media/about.c07f3d2b.d6fcb912644c15572393.png",
+    "static/media/img-3.jpg": "/alfazsozib/ReactPort1/static/media/img-3.a6997489e0c7eb2ecc3c.jpg",
+    "static/media/banner.png": "/alfazsozib/ReactPort1/static/media/banner.fc60d8fe417f6e83eb1f.png",
+    "index.html": "/alfazsozib/ReactPort1/index.html",
+    "main.558d6223.css.map": "/alfazsozib/ReactPort1/static/css/main.558d6223.css.map",
+    "main.817a58e0.js.map": "/alfazsozib/ReactPort1/static/js/main.817a58e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.558d6223.css",
+    "static/js/main.817a58e0.js"
+  ]
+}
