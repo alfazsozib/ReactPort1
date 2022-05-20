@@ -6,8 +6,7 @@ function Nav() {
   return (
     <div>
         <nav className='navbar'>
-
-            <span className='logo'><img src={logo} alt="" /></span>
+            <img src={logo} className='logo' alt="" />
             <ul>
                 <li><a href="" className='active'>Home</a></li>
                 <li><a href="#aboutSection">About</a></li>

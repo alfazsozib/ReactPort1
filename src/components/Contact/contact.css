@@ -68,26 +68,6 @@
     padding: 20px;
 }
 
-
-.cards{
-    width: 350px;
-    height: 176px;
-    background-color: rgb(11, 28, 67);
-    color: white;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border: 2px solid;
-    border-radius: 20px;
-    margin-top: 40px;
-}
-
-.cards:hover{
-    background: transparent;
-    border: none;
-}
-
 .icon-cn{
     font-size: 2rem;
     position: relative;
@@ -97,15 +77,6 @@
 
 
 #image{
-    /* width: 600px;
-    position: absolute;
-    opacity: 0.6;
-    top: 0;
-    right: 50px;
-    transition: ease-out;
-    transition-delay: 3s;
-    transform: rotateX(360deg); */
-
     position: absolute;
     left: 80px;
     opacity: 0.3;
@@ -134,4 +105,19 @@
 .con_icn > .icn:hover{
     color: rgb(7, 7, 36);
     cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    #image{
+        height: 400px;
+    }
+    .cta_form{
+        margin: 0;
+        width: 500px;
+        height: 550px;
+    }
+
+    .con_icn{
+        display: none;       
+    }
 }

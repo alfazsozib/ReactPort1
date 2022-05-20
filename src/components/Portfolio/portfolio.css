@@ -23,9 +23,6 @@
 
 }
 
-.carsol{
-    width: 400px;
-}
 
 .portfolio_container>h1{
     font-size: 3rem;
@@ -64,3 +61,29 @@
     line-height: 1.3rem;
 }
 
+@media screen and (max-width: 500px) {
+    .portfolio_container{
+        /* background-color: rgb(5, 5, 56); */
+        color : white;
+        height: 200vh;
+    
+    }
+    .port_text h3{
+        font-size: 1.8rem;
+    }
+
+    .portfolio_content{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 10rem;
+        display: flex;
+
+        gap: 15rem;
+    }
+    .portImage{
+        width: 300px;
+    }
+
+}
