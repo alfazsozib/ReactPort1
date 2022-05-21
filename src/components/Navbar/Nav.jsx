@@ -9,9 +9,9 @@ function Nav() {
             <img src={logo} className='logo' alt="" />
             <ul>
                 <li><a href="" className='active'>Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#aboutSection">About</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
             </ul>
             <button className="cta" href='#contact' type='Submit'>Let's Talk</button>
         </nav>
