@@ -120,4 +120,13 @@
     .con_icn{
         display: none;       
     }
+
+    .contact_container{
+        height: 80vh;       
+        
+    }
+    .contact_container>h1{
+        padding: 5px;
+        margin-bottom: 50px;
+    }
 }

@@ -6,6 +6,7 @@ import Contact from './components/Contact/Contact'
 import Portfolio from "./components/Portfolio/Portfolio"
 import Section from './components/About/section'
 import Footer from './components/Footer/Footer'
+import Testimonial  from './components/testimonial/Testimonial';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <Header />  
       <Portfolio />  
       <Section />
+      <Testimonial />
       <Contact />
       <Footer />
       

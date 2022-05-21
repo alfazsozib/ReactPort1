@@ -1,0 +1,54 @@
+.carousel-wrapper {
+    height: 100vh;
+    margin-bottom: 80px;
+}
+
+.carousel-wrapper > h1{
+ color: white;
+ text-align: center;
+ margin-top: 20px;
+ margin-bottom: 60px;
+ font-size: 3.5rem;
+
+}
+
+
+.car-content{
+    background-color: rgba(8, 8, 65, 0.29);
+    height: 350px;
+    text-align: center;
+    padding: 40px;
+    color: white;
+
+}
+
+
+.car-content > .image{
+    height: 100px;
+    width: 100px !important;
+    border-radius: 60%;
+    margin: 10px;
+}
+
+.car-content > h3{
+    font-size: 1.8rem;
+    margin: 5px;
+    
+}
+
+.car-content > p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+@media screen and (max-width: 414px) {
+    .car-content{
+        height: 450px;
+        padding: 30px;
+    }
+
+    .carousel-wrapper {
+        margin-bottom: 0px;
+    }
+
+}
