@@ -4,21 +4,16 @@
     height: 100vh;
 
 }
-
-/* .card{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 2rem;
-    margin-right: 60px;
-} */
-
+.card{
+    
+}
 .portfolio_content{
-    width: 400px;
-    height: 400px;
-    display: grid;
-    grid-template-columns: 40% 40% 20%;
-    gap: 16rem;
-    margin-inline-start: 20px
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 40px;
 
 
 }
@@ -35,17 +30,20 @@
 .portImage{
 
     width: 400px;
-    position: absolute;
-    /* display: block; */
-
+    /* position: absolute; */
+    padding: 10px;
+    
 }
 
 .port_text{
     position: relative;
     display: block;
     width: 300px;
-    top: 50%;
-    padding: 10px;
+    bottom: 300px;
+    left: 20px;
+
+    /* top: 50%; */
+     padding: 10px;
 
 }
 
@@ -84,6 +82,49 @@
     }
     .portImage{
         width: 360px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    
+    #portfolio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+        
+    }
+
+    .portfolio_container{
+        /* background-color: rgb(5, 5, 56); */
+        color : white;
+        height: 170vh;
+        margin-bottom: 150%;
+
+    
+    }
+
+    .port_text{
+        position: relative;
+        display: block;
+        width: 300px;
+        text-align: left;
+    
+    }
+    .port_text h3{
+        font-size: 1.7rem;
+        
+    }
+  .portImage{
+        width: 480px;
+ 
     }
 
 }

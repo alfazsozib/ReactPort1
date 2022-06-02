@@ -1,6 +1,7 @@
 .carousel-wrapper {
     height: 100vh;
     margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 .carousel-wrapper > h1{
@@ -44,6 +45,7 @@
 @media screen and (max-width: 414px) {
     .car-content{
         height: 450px;
+        width: 100% !important;
         padding: 30px;
     }
 
